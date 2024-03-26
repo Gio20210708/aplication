@@ -51,6 +51,7 @@ public class GenerateIntoFiles {
 			writerFile.write("\nCC ; 987654321 ; Juanito; Ruiz");
 			writerFile.write("\nCC ; 546123788 ; Luisa; Lopez");
 			writerFile.write("\nCC ; 369852147 ; Maria; Martinez");
+			writerFile.write("\nCC ; 741852963 ; Luis; Gonzalez");
 			writerFile.close();
 			
 			FileWriter writerFile2 = new FileWriter(productInfo);
@@ -58,6 +59,7 @@ public class GenerateIntoFiles {
 			writerFile2.write("\n2 ; Frijol; 6500");
 			writerFile2.write("\n3 ; Leche; 3700");
 			writerFile2.write("\n4 ; Pan; 4900");
+			writerFile2.write("\n4 ; Huevos; 5200");
 			writerFile2.close();
 			
 			System.out.println("Sucesfull agregate text");
